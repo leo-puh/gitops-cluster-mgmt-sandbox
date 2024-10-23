@@ -4,7 +4,8 @@ metadata:
   name: kubevirt-hyperconverged
   annotations:
     deployOVS: 'false'
-#    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-wave: "2"
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
   namespace: openshift-cnv
 spec:
   virtualMachineOptions:
