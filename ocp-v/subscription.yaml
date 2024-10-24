@@ -10,7 +10,7 @@ metadata:
   namespace: openshift-cnv2
 spec:
   targetNamespaces:
-    - openshift-cnv
+    - openshift-cnv2
 ---
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
